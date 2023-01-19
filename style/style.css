@@ -5,8 +5,8 @@ body {
 }
 
 .wrapper {
-    width: 95%;
-    margin: 0 auto;
+    display: flex;
+    margin: 0 20vw;
 }
 
 .position {
@@ -47,19 +47,13 @@ table {
     width: 100%;
 }
 
-.name,
-.achievements,
-.position,
-.skills {
+.border {
     border-bottom: rgb(255, 170, 0) solid 1px;
 }
 
 #profile-pick {
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
-    border: 2px rgb(255, 170, 0) solid;
-    padding: 10px;
+    width: 100%;
+    margin: 15px auto;
 }
 
 th {
@@ -71,6 +65,16 @@ td {
 }
 
 .header {
+    width: 30%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(97, 160, 219);
+    border: 0.5px solid black;
+}
+.main {
+    padding-left: 15px;
+    border: 0.5px solid black;
+}
+.padding-header {
+    padding: 0 10px;
 }
